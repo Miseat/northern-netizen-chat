@@ -8,6 +8,23 @@
 
 ---
 
+## 配套 Koishi 插件
+
+这个 skill 可以直接当聊天风格喂给 QQ 机器人：
+
+| 插件 | 说明 |
+| --- | --- |
+| [`@nestim/koishi-plugin-qq-group-manager`](https://github.com/Miseat/koishi-plugin-qq-group-manager) | **主插件**：群管、AI 回复、记忆库、识图、定时提醒 |
+| [`@nestim/koishi-plugin-qqgm-chat-style`](https://github.com/Miseat/koishi-plugin-qqgm-chat-style) | 风格插件：把这个 skill 设为主风格，再按概率叠别的口癖 |
+| [`@nestim/koishi-plugin-qqgm-meme`](https://github.com/Miseat/koishi-plugin-qqgm-meme) | 表情包：按情绪标签抽图补发 |
+
+放法：`data/chat-styles/northern-netizen-chat/SKILL.md`，然后在插件里把主风格填 `northern-netizen-chat`。
+
+想再叠一层口癖，配个追加风格即可，例如：
+[火影忍者手游口癖](https://github.com/Miseat/naruto-mobile-chat)（概率 0.3 左右比较自然）。
+
+---
+
 ## 它解决什么问题
 
 大部分"嘴臭人格"提示词有三个毛病：
